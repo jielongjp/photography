@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+/* TODO: add above in index.html */
+
+@layer base {
+  body {
+    @apply text-primary font-secondary bg-white;
+  }
+  .h1 {
+    @apply text-[54px] lg:text-[108px] font-primary font-bold capitalize mb-2 xl:pt-16;
+  }
+  .section, .container {
+    @apply h-screen w-screen;
+  }
+  .btn {
+    @apply rounded hover:bg-slate-700 py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base uppercase font-secondary font-semibold bg-primary text-white;
+  }
+}
