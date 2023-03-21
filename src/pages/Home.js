@@ -18,7 +18,7 @@ import Image13 from '../img/portfolio/13.png'
 import Image14 from '../img/portfolio/14.png'
 
 import Background from '../img/portfolio/background.jpeg'
-import Background2 from '../img/portfolio/background-2.jpg'
+import Background2 from '../img/portfolio/background.jpg'
 
 
 // import Background from '../img/portfolio/2.png'
