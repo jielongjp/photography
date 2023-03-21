@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/photography-react/static/css/main.3fbcbd09.css",
+    "main.js": "/photography-react/static/js/main.4de863a6.js",
+    "static/media/cat-7.jpg": "/photography-react/static/media/cat-7.829ec66baae3b8376f1b.jpg",
+    "static/media/graduation.png": "/photography-react/static/media/graduation.4e9995143e509a473227.png",
+    "static/media/cat-4.jpg": "/photography-react/static/media/cat-4.b403c9533eeec45ca556.jpg",
+    "static/media/cat-1.jpg": "/photography-react/static/media/cat-1.f66645455e4b4795508a.jpg",
+    "static/media/cat-6.jpg": "/photography-react/static/media/cat-6.2c819bde4eee555afbea.jpg",
+    "static/media/cat-3.jpg": "/photography-react/static/media/cat-3.4c9d5f8a6a49273cfa0f.jpg",
+    "static/media/cat-2.jpg": "/photography-react/static/media/cat-2.5c4f05635828d67de833.jpg",
+    "static/media/cat-5.jpg": "/photography-react/static/media/cat-5.052de7556af751b9b2fd.jpg",
+    "static/media/background.jpg": "/photography-react/static/media/background.28af7bc85447562cd5b8.jpg",
+    "static/media/fuji.jpg": "/photography-react/static/media/fuji.5664e2f03f1824265052.jpg",
+    "static/media/5.png": "/photography-react/static/media/5.f232d9ca2ea9dfd7f06b.png",
+    "static/media/8.png": "/photography-react/static/media/8.f463dd8915b2a154a0bf.png",
+    "static/media/4.png": "/photography-react/static/media/4.ade3c327944b9a440776.png",
+    "static/media/16.png": "/photography-react/static/media/16.0c18b5412eb4655d75d7.png",
+    "static/media/7.png": "/photography-react/static/media/7.c30ecd61231cfc3d24e5.png",
+    "static/media/catgroup.jpg": "/photography-react/static/media/catgroup.b1225da56bda00fd8a64.jpg",
+    "static/media/15.png": "/photography-react/static/media/15.8cc27c84e3551ede1b49.png",
+    "static/media/13.png": "/photography-react/static/media/13.73da83336e616c304aa1.png",
+    "static/media/11.png": "/photography-react/static/media/11.26870c9700267d907fbd.png",
+    "static/media/14.png": "/photography-react/static/media/14.ab0f08b1278500b46609.png",
+    "static/media/9.png": "/photography-react/static/media/9.c33e822cdebd3182e79e.png",
+    "static/media/1.png": "/photography-react/static/media/1.b4b687629e72166c78a9.png",
+    "static/media/6.png": "/photography-react/static/media/6.dec48c7864002dad3a1e.png",
+    "static/media/10.png": "/photography-react/static/media/10.e6863e376e8cd75dcd99.png",
+    "static/media/12.png": "/photography-react/static/media/12.638568b29c1281ad1a85.png",
+    "static/media/2.png": "/photography-react/static/media/2.6fdd295d93b78cc567d6.png",
+    "static/media/background.jpeg": "/photography-react/static/media/background.1b811490c817849dc641.jpeg",
+    "static/media/3.png": "/photography-react/static/media/3.a06a8d43aa4e77e29a70.png",
+    "static/media/jordan-headshot.png": "/photography-react/static/media/jordan-headshot.5b8389537a5bc0cb5d11.png",
+    "static/media/logo.png": "/photography-react/static/media/logo.b6281c4ad77df42e0f5d.png",
+    "index.html": "/photography-react/index.html",
+    "main.3fbcbd09.css.map": "/photography-react/static/css/main.3fbcbd09.css.map",
+    "main.4de863a6.js.map": "/photography-react/static/js/main.4de863a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fbcbd09.css",
+    "static/js/main.4de863a6.js"
+  ]
+}
