@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/photography-react/static/css/main.3fbcbd09.css",
-    "main.js": "/photography-react/static/js/main.4de863a6.js",
+    "main.js": "/photography-react/static/js/main.7c6a167b.js",
     "static/media/cat-7.jpg": "/photography-react/static/media/cat-7.829ec66baae3b8376f1b.jpg",
     "static/media/graduation.png": "/photography-react/static/media/graduation.4e9995143e509a473227.png",
     "static/media/cat-4.jpg": "/photography-react/static/media/cat-4.b403c9533eeec45ca556.jpg",
@@ -34,10 +34,10 @@
     "static/media/logo.png": "/photography-react/static/media/logo.b6281c4ad77df42e0f5d.png",
     "index.html": "/photography-react/index.html",
     "main.3fbcbd09.css.map": "/photography-react/static/css/main.3fbcbd09.css.map",
-    "main.4de863a6.js.map": "/photography-react/static/js/main.4de863a6.js.map"
+    "main.7c6a167b.js.map": "/photography-react/static/js/main.7c6a167b.js.map"
   },
   "entrypoints": [
     "static/css/main.3fbcbd09.css",
-    "static/js/main.4de863a6.js"
+    "static/js/main.7c6a167b.js"
   ]
 }
