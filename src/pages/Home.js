@@ -89,7 +89,6 @@ const Home = () => {
       </div>
 
       <div>
-        <p>Lorem ipsum dolor sit amet.</p>
         <ImageGrid image1={Image1} image2={Image2} image3={Image3} image4={Image4} image5={Image5} image6={Image6} image7={Image7}/>
           <LargeImage image={Fuji}/>
         <ImageGrid image1={Image8} image2={Image9} image3={Image10} image4={Image11} image5={Image12} image6={Image13} image7={Image14}/>

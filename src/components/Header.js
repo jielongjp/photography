@@ -28,25 +28,25 @@ const Header = () => {
             Home
           </Link>
           <Link
-            to={'/travel'}
+            to={'/travel/'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             Travel
           </Link>
           <Link
-            to={'/wildlife'}
+            to={'/wildlife/'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             Wildlife
           </Link>
           <Link
-            to={'/about'}
+            to={'/about/'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             About
           </Link>
           <Link
-            to={'/contact'}
+            to={'/contact/'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             Contact

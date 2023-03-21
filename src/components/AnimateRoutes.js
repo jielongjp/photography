@@ -15,10 +15,10 @@ const AnimateRoutes = () => {
     <AnimatePresence initial={true} mode='wait'>
       <Routes key={location.pathname} location={location}>
         <Route path='/' element={<Home />} />
-        <Route path='/travel' element={<Travel />} />
-        <Route path='/wildlife' element={<Wildlife />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/travel/' element={<Travel />} />
+        <Route path='/wildlife/' element={<Wildlife />} />
+        <Route path='/about/' element={<About />} />
+        <Route path='/contact/' element={<Contact />} />
       </Routes>
     </AnimatePresence>
   );

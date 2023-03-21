@@ -52,16 +52,16 @@ const MobileNav = () => {
             <Link to='/'>Home</Link>
           </li>
           <li>
-            <Link to='/travel'>Travel</Link>
+            <Link to='/travel/'>Travel</Link>
           </li>
           <li>
-            <Link to='/wildlife'>Wildlife</Link>
+            <Link to='/wildlife/'>Wildlife</Link>
           </li>
           <li>
-            <Link to='/about'>About</Link>
+            <Link to='/about/'>About</Link>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/contact/'>Contact</Link>
           </li>
           {/* <li>
             <Socials />
