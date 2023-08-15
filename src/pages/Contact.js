@@ -1,5 +1,5 @@
 import React from 'react';
-import WomanImg from '../img/home/graduation.png';
+import GradImg from '../img/home/graduation.png';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 
@@ -26,8 +26,8 @@ const Contact = () => {
           <div
             className='lg:flex-1 lg:pt-32 px-4'
           >
-            <h1 className='h1'>Contact me</h1>
-            <p className='mb-12'>Feel free to get in touch.</p>
+            <h1 className='h1'>Contact</h1>
+            <p className='mb-12'>Get in touch with me here.</p>
             {/* form */}
             <form className='flex flex-col gap-y-4'>
               <div className='flex gap-x-10'>
@@ -60,7 +60,7 @@ const Contact = () => {
             transition={{ transition: transition1, duration: 1.5 }}
             className='lg:flex-1'
           >
-            <img src={WomanImg} alt='' />
+            <img src={GradImg} alt='' />
           </motion.div>
         </div>
       </div>
