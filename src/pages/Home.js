@@ -55,7 +55,7 @@ const Home = () => {
             exit={{ opacity: 0, y: '-50%' }}
             transition={transition1}
 
-            className='xl:pt-36 pb-14 pl-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start'
+            className='lg:pt-24 pt-8 pb-8 lg:pl-14 pl-4 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-start'
           >
             <h1 className='h1'>
               photographer <br /> & web developer

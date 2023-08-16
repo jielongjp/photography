@@ -6,6 +6,7 @@ import {
   ImGithub,
   ImInstagram,
   ImYoutube,
+  ImLinkedin
 } from 'react-icons/im';
 
 const Socials = () => {
@@ -16,13 +17,8 @@ const Socials = () => {
     >
       <ul className='flex gap-x-4'>
         <li>
-          <a href='http://wwww.facebook.com' target='_blank'>
-            <ImFacebook />
-          </a>
-        </li>
-        <li>
-          <a href='http://www.twitter.com' target='_blank'>
-            <ImTwitter />
+          <a href='https://www.linkedin.com/in/jordanharris00/' target='_blank'>
+            <ImLinkedin />
           </a>
         </li>
         <li>
@@ -36,8 +32,13 @@ const Socials = () => {
           </a>
         </li>
         <li>
-          <a href='http://www.youtube.com' target='_blank'>
+          <a href='https://www.youtube.com/channel/UC1qHXN-WjKK1uZ6yfemUdhg/' target='_blank'>
             <ImYoutube />
+          </a>
+        </li>
+        <li>
+          <a href='http://www.twitter.com' target='_blank'>
+            <ImTwitter />
           </a>
         </li>
       </ul>
