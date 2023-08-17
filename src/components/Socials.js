@@ -1,8 +1,6 @@
 import React from 'react';
-// import icons
+
 import {
-  ImFacebook,
-  ImTwitter,
   ImGithub,
   ImInstagram,
   ImYoutube,
@@ -11,10 +9,7 @@ import {
 
 const Socials = () => {
   return (
-    <div
-
-      className='hidden xl:flex ml-24'
-    >
+    <div className='hidden xl:flex ml-24'>
       <ul className='flex gap-x-4'>
         <li>
           <a href='https://www.linkedin.com/in/jordanharris00/' target='_blank'>
@@ -34,11 +29,6 @@ const Socials = () => {
         <li>
           <a href='https://www.youtube.com/channel/UC1qHXN-WjKK1uZ6yfemUdhg/' target='_blank'>
             <ImYoutube />
-          </a>
-        </li>
-        <li>
-          <a href='http://www.twitter.com' target='_blank'>
-            <ImTwitter />
           </a>
         </li>
       </ul>
