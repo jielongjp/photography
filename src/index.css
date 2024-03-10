@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
 /* TODO: add above in index.html */
 
 @layer base {
@@ -11,7 +11,8 @@
   .h1 {
     @apply text-[54px] lg:text-[108px] font-primary font-bold capitalize mb-2 xl:pt-16;
   }
-  .section, .container {
+  .section,
+  .container {
     @apply h-screen w-screen;
   }
   .btn {
