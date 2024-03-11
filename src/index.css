@@ -19,3 +19,9 @@
     @apply rounded hover:bg-slate-700 py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base uppercase font-secondary font-semibold bg-primary text-white;
   }
 }
+
+/* disable navigation on single image lightbox */
+.single-image .yarl__navigation_prev,
+.single-image .yarl__navigation_next {
+  display: none;
+}
