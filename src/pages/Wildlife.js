@@ -25,7 +25,7 @@ const Wildlife = () => {
             transition={transition1}
             className="flex flex-col lg:items-start"
           >
-            <h1 className="h1">The Cats</h1>
+            <h1 className="h1">Cats</h1>
             <p className="mb-12 max-w-sm">
               Cats often make the perfect models in the outside, each with their
               own unique personalities and traits that make for some enticing
@@ -77,13 +77,10 @@ const Wildlife = () => {
             className="flex flex-col lg:items-start"
           >
             <h1 className="h1">Tokyo, Japan</h1>
+            <br></br>
             <p className="mb-12 max-w-sm">
               This cat would sit and lie down around the house next to our
               apartment in Nakano, Tokyo everyday.
-              <br />
-              <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
             </p>
           </motion.div>
           <SingleImage image={CatImages[6]} />
@@ -114,7 +111,9 @@ const Wildlife = () => {
       />
       <div className="container mx-auto h-full relative">
         <div className="flex flex-col lg:flex-row h-full items-center justify-start gap-x-8 text-center lg:text-left pt-24 lg:pt-36 pb-8">
-          {/* text */}
+          <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none">
+            <SingleImage image={monkey1} />
+          </div>
           <motion.div
             initial={{ opacity: 0, y: "-80%" }}
             animate={{ opacity: 1, y: 0 }}
@@ -133,9 +132,6 @@ const Wildlife = () => {
               around.
             </p>
           </motion.div>
-          <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none">
-            <SingleImage image={monkey1} />
-          </div>
         </div>
       </div>
     </motion.section>
