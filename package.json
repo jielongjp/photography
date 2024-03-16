@@ -1,6 +1,6 @@
 {
   "name": "photographer-portfolio",
-  "homepage": "https://jordharris.com/photography-react/",
+  "homepage": "https://jordharris.com/photography/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
