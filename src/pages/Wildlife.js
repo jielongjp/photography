@@ -3,6 +3,7 @@ import { CatImages } from "../img";
 import monkey1 from "../img/wildlife/monkey-1.jpg";
 import ImageGrid from "../components/ImageGrid";
 import SingleImage from "../components/SingleImage";
+import Divider from "../components/Divider";
 // import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
@@ -51,11 +52,10 @@ const Wildlife = () => {
           </div>
         </div>
       </div>
-      <div className="border-t mt-4 pt-4">
-        <h2 className="text-4xl text-center pb-4 font-primary font-bold">
-          Cats of Kagawa, Japan
-        </h2>
-      </div>
+      <Divider />
+      <h2 className="text-4xl text-center pb-4 font-primary font-bold">
+        Cats of Kagawa, Japan
+      </h2>
 
       <ImageGrid
         image1={CatImages[3]}
@@ -86,11 +86,10 @@ const Wildlife = () => {
           <SingleImage image={CatImages[6]} />
         </div>
       </div>
-      <div className="border-t mt-4 pt-4">
-        <h2 className="text-4xl text-center pb-4 font-primary font-bold">
-          Ruifang, Taiwan
-        </h2>
-      </div>
+      <Divider />
+      <h2 className="text-4xl text-center pb-4 font-primary font-bold">
+        Ruifang, Taiwan
+      </h2>
       <ImageGrid
         image1={CatImages[9]}
         image2={CatImages[18]}
