@@ -38,12 +38,12 @@ const Header = () => {
           >
             About
           </Link>
-          <Link
-            to={"/contact/"}
+          <a
+            href="https://jordharris.com/contact/"
             className="text-[#696c6d] hover:text-primary transition"
           >
             Contact
-          </Link>
+          </a>
         </nav>
       </div>
       <Socials />

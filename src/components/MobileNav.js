@@ -56,7 +56,7 @@ const MobileNav = () => {
             <Link to="/about/">About</Link>
           </li>
           <li>
-            <Link to="/contact/">Contact</Link>
+            <a href="https://jordharris.com/contact/">Contact</a>
           </li>
           {/* <li>
             <Socials />
