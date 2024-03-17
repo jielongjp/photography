@@ -9,15 +9,7 @@ const ImageGrid = (props) => {
   const [open, setOpen] = useState(false);
   const [imageIndex, setImageIndex] = useState(0);
 
-  const images = [
-    props.image1,
-    props.image2,
-    props.image3,
-    props.image4,
-    props.image5,
-    props.image6,
-    props.image7,
-  ];
+  const images = Object.values(props);
 
   const handleImageClick = (index) => {
     setOpen(true);

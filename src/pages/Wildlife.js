@@ -98,8 +98,16 @@ const Wildlife = () => {
         image5={CatImages[10]}
         image6={CatImages[14]}
         image7={CatImages[12]}
+        image8={CatImages[13]}
+        image9={CatImages[14]}
+        image10={CatImages[15]}
+        image11={CatImages[17]}
+        image12={CatImages[18]}
+        image13={CatImages[8]}
+        image14={CatImages[16]}
+        image15={CatImages[12]}
       />
-      <ImageGrid
+      {/* <ImageGrid
         image1={CatImages[13]}
         image2={CatImages[14]}
         image3={CatImages[15]}
@@ -107,7 +115,7 @@ const Wildlife = () => {
         image5={CatImages[18]}
         image6={CatImages[8]}
         image7={CatImages[16]}
-      />
+      /> */}
       <div className="container mx-auto h-full relative">
         <div className="flex flex-col lg:flex-row h-full items-center justify-start gap-x-8 text-center lg:text-left pt-24 lg:pt-36 pb-8">
           <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none">
