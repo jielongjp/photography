@@ -30,6 +30,7 @@ import ImageGrid from "../components/ImageGrid";
 import { CgEnter } from "react-icons/cg";
 import LargeImage from "../components/LargeImage";
 import SingleImage from "../components/SingleImage";
+import Divider from "../components/Divider";
 
 const Home = () => {
   return (
@@ -105,7 +106,7 @@ const Home = () => {
         image7={Image7}
       />
       <LargeImage image={Fuji} />
-      <div className="container mx-auto h-full relative">
+      <div className="container mx-auto h-auto">
         <div className="flex flex-col lg:flex-row h-full items-center justify-start gap-x-8 text-center lg:text-left pt-24 lg:pt-36 pb-8">
           {/* text */}
           <motion.div
@@ -134,6 +135,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Divider />
       <ImageGrid
         image1={Image8}
         image2={Image9}
@@ -143,7 +145,7 @@ const Home = () => {
         image6={Image13}
         image7={Image14}
       />
-      <div className="container mx-auto h-full relative">
+      <div className="container mx-auto h-auto relative">
         <div className="flex flex-col lg:flex-row h-full items-center justify-start gap-x-8 text-center lg:text-left pt-24 lg:pt-36 pb-8">
           <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none hover:opacity-90">
             <SingleImage image={Image2} />
