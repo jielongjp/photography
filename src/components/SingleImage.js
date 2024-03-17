@@ -23,7 +23,7 @@ const SingleImage = (props) => {
       />
 
       <div
-        className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none cursor-pointer"
+        className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none cursor-pointer hover:opacity-90"
         onClick={handleImageClick}
       >
         <img alt="" src={props.image} />
