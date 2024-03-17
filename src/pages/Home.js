@@ -1,21 +1,7 @@
 import React, { useContext } from "react";
 
-import Headshot from "../img/home/jordan-headshot.png";
 import Fuji from "../img/portfolio/fuji.jpg";
-import Image1 from "../img/portfolio/1.png";
-import Image2 from "../img/portfolio/2.png";
-import Image3 from "../img/portfolio/3.png";
-import Image4 from "../img/portfolio/4.png";
-import Image5 from "../img/portfolio/5.png";
-import Image6 from "../img/portfolio/6.png";
-import Image7 from "../img/portfolio/7.png";
-import Image8 from "../img/portfolio/8.png";
-import Image9 from "../img/portfolio/9.png";
-import Image10 from "../img/portfolio/10.png";
-import Image11 from "../img/portfolio/11.png";
-import Image12 from "../img/portfolio/12.png";
-import Image13 from "../img/portfolio/13.png";
-import Image14 from "../img/portfolio/14.png";
+import { PortfolioImages } from "../img";
 import Cat2 from "../img/wildlife/cat-2.jpg";
 
 import Background from "../img/portfolio/background.jpeg";
@@ -97,13 +83,13 @@ const Home = () => {
       </div>
 
       <ImageGrid
-        image1={Image1}
-        image2={Image2}
-        image3={Image3}
-        image4={Image4}
-        image5={Image5}
-        image6={Image6}
-        image7={Image7}
+        image1={PortfolioImages[0]}
+        image2={PortfolioImages[1]}
+        image3={PortfolioImages[2]}
+        image4={PortfolioImages[3]}
+        image5={PortfolioImages[4]}
+        image6={PortfolioImages[5]}
+        image7={PortfolioImages[6]}
       />
       <LargeImage image={Fuji} />
       <div className="container mx-auto h-auto">
@@ -137,18 +123,18 @@ const Home = () => {
       </div>
       <Divider />
       <ImageGrid
-        image1={Image8}
-        image2={Image9}
-        image3={Image10}
-        image4={Image11}
-        image5={Image12}
-        image6={Image13}
-        image7={Image14}
+        image1={PortfolioImages[7]}
+        image2={PortfolioImages[8]}
+        image3={PortfolioImages[9]}
+        image4={PortfolioImages[10]}
+        image5={PortfolioImages[11]}
+        image6={PortfolioImages[12]}
+        image7={PortfolioImages[13]}
       />
       <div className="container mx-auto h-auto relative">
         <div className="flex flex-col lg:flex-row h-full items-center justify-start gap-x-8 text-center lg:text-left pt-24 lg:pt-36 pb-8">
           <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none hover:opacity-90">
-            <SingleImage image={Image2} />
+            <SingleImage image={PortfolioImages[1]} />
           </div>
           <motion.div
             initial={{ opacity: 0, y: "-80%" }}
