@@ -25,10 +25,9 @@ const Home = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={transition1}
-      className="section bg-blue-200"
     >
       <div
-        className="h-full w-full relative"
+        className="h-screen w-full relative"
         style={{
           backgroundImage: `url(${Background2})`,
           backgroundPosition: "center",
@@ -38,15 +37,13 @@ const Home = () => {
         }}
       >
         <div className="container">
-          {/* text & img wrapper */}
-          <div className="flex flex-col justify-center h-full">
-            {/* text */}
+          <div className="flex flex-col h-full justify-center">
             <motion.div
               initial={{ opacity: 0, y: "-50%" }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: "-50%" }}
               transition={transition1}
-              className="lg:pt-24 pt-8 pb-8 lg:pl-14 pl-4 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-start"
+              className="pt-8 pb-8 lg:pl-14 pl-4 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-start"
             >
               <h1 className="h1">
                 photographer <br /> & web developer
@@ -61,7 +58,6 @@ const Home = () => {
                 contact me
               </a>
             </motion.div>
-            {/* image */}
             <div className="flex justify-end lg:max-h-max rounded-full">
               <motion.div
                 initial={{ scale: 0 }}
@@ -94,7 +90,6 @@ const Home = () => {
       <LargeImage image={Fuji} />
       <div className="container mx-auto h-auto">
         <div className="flex flex-col lg:flex-row h-full items-center justify-start gap-x-8 text-center lg:text-left pt-24 lg:pt-36 pb-8">
-          {/* text */}
           <motion.div
             initial={{ opacity: 0, y: "-80%" }}
             animate={{ opacity: 1, y: 0 }}
