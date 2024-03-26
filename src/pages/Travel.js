@@ -7,6 +7,9 @@ import Image5 from "../img/portfolio/12.png";
 import Image6 from "../img/portfolio/fuji.jpg";
 import Image7 from "../img/portfolio/7.png";
 
+import { NkImages } from "../img";
+import { ScothImages } from "../img";
+
 import ImageGrid from "../components/ImageGrid";
 import SingleImage from "../components/SingleImage";
 import { Link } from "react-router-dom";
@@ -114,13 +117,15 @@ const Travel = () => {
         </div>
       </div>
       <ImageGrid
-        image1={Image1}
-        image2={Image2}
-        image3={Image3}
-        image4={Image4}
-        image5={Image5}
-        image6={Image6}
-        image7={Image7}
+        image1={NkImages[0]}
+        image2={NkImages[1]}
+        image3={NkImages[2]}
+        image4={NkImages[3]}
+        image5={NkImages[4]}
+        image6={NkImages[5]}
+        image7={NkImages[6]}
+        image8={NkImages[7]}
+        image9={NkImages[8]}
       />
       <div className="container mx-auto h-full relative">
         <div className="flex flex-col lg:flex-row h-full items-center justify-start gap-x-8 text-center lg:text-left pt-24 lg:pt-36 pb-8">
@@ -145,13 +150,13 @@ const Travel = () => {
         </div>
       </div>
       <ImageGrid
-        image1={Image1}
-        image2={Image2}
-        image3={Image3}
-        image4={Image4}
-        image5={Image5}
-        image6={Image6}
-        image7={Image7}
+        image1={ScothImages[0]}
+        image2={ScothImages[1]}
+        image3={ScothImages[2]}
+        image4={ScothImages[3]}
+        image5={ScothImages[4]}
+        image6={ScothImages[5]}
+        image7={ScothImages[6]}
       />
       <div className="container mx-auto h-full relative">
         {/* text & img wrapper */}
