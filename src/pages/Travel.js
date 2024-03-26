@@ -9,6 +9,7 @@ import Image7 from "../img/portfolio/7.png";
 
 import { NkImages } from "../img";
 import { ScothImages } from "../img";
+import { FoodImages } from "../img";
 
 import ImageGrid from "../components/ImageGrid";
 import SingleImage from "../components/SingleImage";
@@ -166,28 +167,28 @@ const Travel = () => {
             <div className="max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden shadow-md">
               <img
                 className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500"
-                src={Image1}
+                src={FoodImages[0]}
                 alt=""
               />
             </div>
             <div className="max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden shadow-md">
               <img
                 className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500"
-                src={Image2}
+                src={FoodImages[1]}
                 alt=""
               />
             </div>
             <div className="max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden shadow-md">
               <img
                 className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500"
-                src={Image3}
+                src={FoodImages[2]}
                 alt=""
               />
             </div>
             <div className="max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden">
               <img
                 className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500"
-                src={Image4}
+                src={FoodImages[3]}
                 alt=""
               />
             </div>

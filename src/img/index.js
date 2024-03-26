@@ -59,6 +59,13 @@ import scoth5 from "./scoth/scoth-5.jpg";
 import scoth6 from "./scoth/scoth-6.jpg";
 import scoth7 from "./scoth/scoth-7.jpg";
 
+//food
+
+import food1 from "./food/food-1.jpg";
+import food2 from "./food/food-2.jpg";
+import food3 from "./food/food-3.jpg";
+import food4 from "./food/food-4.jpg";
+
 export const CatImages = [
   Cat1,
   Cat2,
@@ -110,3 +117,5 @@ export const ScothImages = [
   scoth6,
   scoth7,
 ];
+
+export const FoodImages = [food1, food2, food3, food4];
