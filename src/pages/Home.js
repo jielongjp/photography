@@ -27,7 +27,7 @@ const Home = () => {
       transition={transition1}
     >
       <div
-        className="h-screen w-full relative"
+        className="h-screen w-full relative mb-2"
         style={{
           backgroundImage: `url(${Background2})`,
           backgroundPosition: "center",
