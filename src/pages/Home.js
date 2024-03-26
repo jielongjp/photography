@@ -54,7 +54,7 @@ const Home = () => {
               </p>
               <a
                 href="https://jordharris.com/contact/"
-                className="btn rounded mb-[30px] bg-[#004d53] hover:bg-[#00808b]"
+                className="btn rounded mb-[30px]"
               >
                 contact me
               </a>
@@ -139,16 +139,15 @@ const Home = () => {
             transition={transition1}
             className="flex flex-col lg:items-start"
           >
-            <h1 className="h1">Nagano, Japan</h1>
+            <h1 className="h1">Travel</h1>
             <p className="mb-12 max-w-sm">
-              <b> The Snow monkeys of Japan.</b> These unique primates bathe in
-              hot springs in the mountains of Nagano during the colder months.
-              <br />
-              <br />
-              We visited in November when it wasn't so cold and snowy, but the
-              surrounding area was still picturesque with plenty of snow monkeys
-              around.
+              From stark, imposing landscapes of Scotland to an unexpected
+              sparkle of colors in Pyongyang. Check out my photo galleries of
+              travel while living in Europe and Asia.
             </p>
+            <Link to={"/travel/"} className="btn mb-[30px] mx-auto lg:mx-0">
+              see here
+            </Link>
           </motion.div>
         </div>
       </div>

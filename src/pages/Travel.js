@@ -110,7 +110,7 @@ const Travel = () => {
               Like a trip back in time, visiting North Korea's capital city was
               a strange and exhilarating experience.
               <br />
-              <br />A stark contract to the modern urban metropolises of the
+              <br />A stark contrast to the modern urban metropolises of the
               south.
             </p>
           </motion.div>
